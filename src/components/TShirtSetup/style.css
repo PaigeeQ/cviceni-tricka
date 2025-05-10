@@ -13,3 +13,18 @@
   padding: 0.25rem;
   margin-left: 0.5rem;
 }
+.tshirt-panel {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tshirt-panel__tshirt {
+  flex: 1;
+}
+
+.tshirt-panel__setup {
+  flex: 1;
+  min-width: 250px;
+}
